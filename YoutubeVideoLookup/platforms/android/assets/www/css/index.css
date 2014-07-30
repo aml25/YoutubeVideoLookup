@@ -1,0 +1,98 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/*container div*/
+.voiceInput {
+    position: absolute;
+    width:50%;
+    text-align:center;
+    bottom:0;
+    left:50%;
+    margin-left:-25%;
+    margin-bottom:10%;
+}
+
+/*I know that this image is portrait*/
+.voiceInput img{
+    width:100%;
+    height:auto;
+}
+
+#utterances{
+    margin:18px;
+    font-size:16px;
+    display:none;
+    color:#FF3A00;
+}
+
+p {
+    margin: 0 0 4px 0;
+}
+
+h1 {
+    margin:10px;
+}
+
+#loadingContainer{
+    width:100px;
+    height:100px;
+    display:none;
+    position:absolute;
+    left:50%;
+    margin-left:-50px;
+    top:50%;
+    margin-top:-50px;
+}
+
+.loading {
+    border: 5px solid #000;
+    -webkit-border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0;
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .voiceInput{
+        left:auto;
+        right:0;
+        margin: 12px;
+        width:25%;
+    }
+}

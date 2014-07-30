@@ -1,0 +1,44 @@
+{
+    "data":[
+        {
+            "utterance": "Open the pod bay doors please Hal",
+            "youtubeId": "ARJ8cAGm6JE",
+            "youtubeTime": "1m3s"
+        },
+        {
+            "utterance": "You complete me",
+            "youtubeId": "GN-klLblvl0",
+            "youtubeTime": "2m39s"
+        },
+        {
+            "utterance": "I am your father",
+            "youtubeId": "Lbjru5CQIW4",
+            "youtubeTime": "1m56s"
+        },
+        {
+            "utterance": "Don't you ever talk that way to me",
+            "youtubeId": "1fuDDqU6n4o",
+            "youtubeTime": "12s"
+        },
+        {
+            "utterance": "Talk about a hole in one",
+            "youtubeId": "YaQqj2PmBh4",
+            "youtubeTime": "39s"
+        },
+        {
+            "utterance": "You can't fight in here this is the war room",
+            "youtubeId": "WI5B7jLWZUc",
+            "youtubeTime": "1m12s"
+        },
+        {
+            "utterance": "There is no spoon",
+            "youtubeId": "WI5B7jLWZUc",
+            "youtubeTime": "30s"
+        },
+        {
+            "utterance": "Wiggle your big toe",
+            "youtubeId": "vHl24Kjp5Vs",
+            "youtubeTime": "0s"
+        }
+    ]
+}

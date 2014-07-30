@@ -1,0 +1,19 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "res/xml/config.xml": {
+            "/*": {
+                "<feature name=\"SpeechRecognizer\"><param name=\"android-package\" value=\"com.phonegap.plugins.speech.SpeechRecognizer\" /></feature>": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.phonegap.plugins.speech": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    },
+    "dependent_plugins": {}
+}
