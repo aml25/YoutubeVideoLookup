@@ -18,10 +18,15 @@
 			"youtubeId": string,
 			matchPercentage: float
 		}
+
+		or "no match"
 		*/
 	}
 	else if($func == "listUtterances"){
 		$result = getUtteranceList($json);
+		/* returns a JSON array
+		[ "these", "are", "the", "stored", "utterances" ]
+		*/
 	}
 
 	function checkForMatchInJSON($jsonData,$searchCriteria){
